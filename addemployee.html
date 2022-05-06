@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Employee</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="addemployee.css">
+    <link rel="stylesheet" href="employess.css">
+
+
+</head>
+
+<body>
+    <div class="navdash">
+        <div class="nav">
+
+            <a href="dashboard.html"><div class="home">
+                <i class="fa fa-home size"></i>
+                <p id="das">Dashboard</p>
+            </div></a>
+
+            <a href="Event.html"><div class="Calender">
+                <i class="fa fa-calendar size"></i>
+                <p id="calender">Nearest Event</p>
+            </div></a> 
+
+            <a href="project.html"> <div class="Calender">
+                <i class="fas fa-project-diagram size"></i>
+                <p id="project">Projects</p>
+            </div></a>
+
+            <a href="employess.html"><div class="Calender ">
+                <i class="fa fa-users size"></i>
+                <p id="user">Employees</p>
+            </div></a>
+            <a href="login.html">
+            <div class="logout">
+                <i class="fa fa-sign-out size"> </i>
+                <p id="log">Log Out</p>
+            </div></a>
+            
+            
+        </div>
+
+        <div class="dashboard">
+            <div class="space">
+                <div class="search">
+                    <input type="text" placeholder="Search">
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="notificaiton">
+                    <i class="fas fa-bell size"></i>
+                    <div class="profile">
+
+                        <img src="profile.webp" alt="profile">
+                        <p>Raj shrestha</p>
+                    </div>
+                </div>
+            </div>
+        
+        <p style="margin-top: 15px; font-size: larger;"> <b> Add Employee</b></p>   
+   
+        <div>
+            <form action="">
+                <div class="addemployee">
+                    
+                    <div class="addemp">
+                        <div class="emp">
+                            <input type="text" placeholder="Employees name"> <br>
+                        </div>
+                        <div class="emp">
+                            <input type="text" placeholder="Position"><br>
+                        </div>
+                        <div class="emp">
+                            <input type="text" placeholder="Salary">
+                        </div>
+                        <div class="emp">
+                            <input type="text" placeholder="Status">
+                        </div>
+
+
+                        <div class="form-group" style="margin-top: 15px;">
+                            <label for="exampleFormControlFile1" style="padding-left: 10px;">Upload Citizenship/Password</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+
+                    </div>
+                    
+                </div>
+            </form>
+            <div class="submit">
+                <a href="employess.html"><button class="border save">Add&nbsp;<i class="fa-solid fas fa-plus" aria-hidden="true"></i></button></a>
+                <a href="employess.html"><button class="border delete">Delete&nbsp;<i class="fa-solid fa-trash"></i></button></a>
+            </div>
+
+        </div>  
+          
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

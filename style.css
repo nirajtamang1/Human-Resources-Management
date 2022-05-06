@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background-color: rgb(157, 157, 248);
+}
+
+.container{
+    width:90%;
+    margin: auto;
+    background-color: white;
+    margin-top: 2%;
+}
+
+.left{
+    width: 50%;
+    float: left;
+    background-color:#DA7390;   
+    height:100vh;
+    text-align: center;
+}
+.left h1{
+    text-align: center; 
+    color:white;
+    padding-top:36px;
+}
+.image{
+    padding-top:40px ;
+    width:400px;
+    height: 400px;
+ 
+}
+
+.center{
+
+    width: 50%;
+    float: left;
+    /* background-color: yellow; */
+    height:100vh;
+    margin-top: 100px;
+    margin: auto;
+    position: relative;
+
+}
+
+
+.center h1{
+    text-align: center; 
+    color:#F05E5E
+}
+
+.center{
+    margin-top: 100px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    position: relative;
+}
+
+.center .header{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-size: 34px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.center form{
+    position: absolute;
+   
+    width: 100%;
+    padding:50px 10px 0 10px;
+    box-sizing: border-box;
+    
+}
+
+.contain{
+ 
+    width: 60%;
+    margin: auto;
+}
+
+form input{
+    padding-left: 10px;
+    margin: auto;
+    height:50px;
+    width:95%;
+    border-radius: 20px;
+    background-color:rgb(179, 173, 173);
+    border:1px solid white;
+    font-size: 18px;
+    
+} 
+
+form input[type="password"]{
+    margin-top: 40px;
+} 
+
+form i{
+    position: absolute;
+    font-size: 25px;
+    color: rgb(24, 23, 23);
+    margin: 15px 0 0 -45px;
+}
+
+i.fa-lock{
+    margin-top:55px;
+}
+
+.link{
+
+    text-align: center;
+}
+
+form button[type="submit"]{
+    margin-top: 40px; 
+    margin-bottom: 20px;
+    width: 130px;
+    color:white;
+    cursor:pointer;
+    line-height:45px;
+    border-radius: 45px;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+form button[type="submit"]:hover{
+    background-color:#DA7390;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+

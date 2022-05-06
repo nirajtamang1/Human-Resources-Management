@@ -1,0 +1,47 @@
+.nav{
+   overflow: hidden;
+}
+.dashboard{
+    overflow-y: auto;
+}
+.empdet{
+    margin-top: 50px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 50px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 30%;
+    margin-top: 10px;
+
+}
+ 
+  
+td, th {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+  
+}
+h3{
+    text-align: center;
+}
+
+.opacity{
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 0.4;
+}
+.textopa{
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.4;
+}
+.width{
+    width: 20%;
+}

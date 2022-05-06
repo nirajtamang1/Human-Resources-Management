@@ -1,0 +1,12 @@
+.near{
+    display: flex;
+    justify-content: space-between;
+}
+.near button{
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+    color:white;
+    width: 130px;
+    height: 40px;
+}

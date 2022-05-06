@@ -1,0 +1,6 @@
+.project1{
+    width: 1040px;
+    display: flex;
+
+    justify-content: space-around;
+}

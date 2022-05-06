@@ -1,0 +1,16 @@
+
+.addemployee{
+ 
+    margin: auto;
+   
+}
+.emp{
+    padding:5px;
+   
+}
+input{
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
